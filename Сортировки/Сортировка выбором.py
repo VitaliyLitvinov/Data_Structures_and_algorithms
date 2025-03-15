@@ -7,6 +7,7 @@ for i in range(0, len(nums)-1):
             min_idx = j
     if  min_idx != i:
         nums[i], nums[min_idx] = nums[min_idx], nums[i]
+
 print(nums)
 
 
